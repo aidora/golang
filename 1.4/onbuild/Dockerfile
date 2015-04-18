@@ -1,4 +1,4 @@
-FROM golang:1.4.2
+FROM aidora/golang:1.4.2.arm
 
 RUN mkdir -p /go/src/app
 WORKDIR /go/src/app
